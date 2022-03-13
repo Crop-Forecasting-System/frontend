@@ -6,11 +6,11 @@ var gchartArea = document.getElementById('gchart').getContext('2d');
 var bchart = new Chart(bchartArea, {
     type: 'line',
     data: {
-        labels: ['1월', '2월', '3월', '4월', '5월', '6월'],
+        labels: ['전월', '현월', '다음월'],
         datasets: [
             {
                 label: '최대값',
-                data: [1200, 1900, 2200, 1400, 1000, 900],
+                data: [1200, 1900, 2200],
                 backgroundColor: '#e24f31',
                 borderColor: '#e24f31',
                 borderWidth: 1,
@@ -18,7 +18,7 @@ var bchart = new Chart(bchartArea, {
             },
             {
                 label: '예측값',
-                data: [1000, 1600, 1500, 800, 800, 600],
+                data: [1000, 1600, 1500],
                 backgroundColor: '#60c0ce',
                 borderColor: '#60c0ce',
                 borderWidth: 1,
@@ -26,7 +26,7 @@ var bchart = new Chart(bchartArea, {
             },
             {
                 label: '최저값',
-                data: [800, 1300, 800, 200, 600, 300],
+                data: [800, 1300, 800],
                 backgroundColor: '#18b171',
                 borderColor: '#18b171',
                 borderWidth: 1,
@@ -59,11 +59,11 @@ var bchart = new Chart(bchartArea, {
 var mchart = new Chart(mchartArea, {
     type: 'line',
     data: {
-        labels: ['1월', '2월', '3월', '4월', '5월', '6월'],
+        labels: ['전월', '현월', '다음월'],
         datasets: [
             {
                 label: '최대값',
-                data: [1200, 1900, 2200, 1400, 1000, 900],
+                data: [1900,  1000, 900],
                 backgroundColor: '#e24f31',
                 borderColor: '#e24f31',
                 borderWidth: 1,
@@ -71,7 +71,7 @@ var mchart = new Chart(mchartArea, {
             },
             {
                 label: '예측값',
-                data: [1000, 1600, 1500, 800, 800, 600],
+                data: [1600, 800, 600],
                 backgroundColor: '#60c0ce',
                 borderColor: '#60c0ce',
                 borderWidth: 1,
@@ -79,7 +79,7 @@ var mchart = new Chart(mchartArea, {
             },
             {
                 label: '최저값',
-                data: [800, 1300, 800, 200, 600, 300],
+                data: [1300, 600, 300],
                 backgroundColor: '#18b171',
                 borderColor: '#18b171',
                 borderWidth: 1,
@@ -112,11 +112,11 @@ var mchart = new Chart(mchartArea, {
 var ochart = new Chart(ochartArea, {
     type: 'line',
     data: {
-        labels: ['1월', '2월', '3월', '4월', '5월', '6월'],
+        labels: ['전월', '현월', '다음월'],
         datasets: [
             {
                 label: '최대값',
-                data: [1200, 1900, 2200, 1400, 1000, 900],
+                data: [1400, 1000, 900],
                 backgroundColor: '#e24f31',
                 borderColor: '#e24f31',
                 borderWidth: 1,
@@ -124,7 +124,7 @@ var ochart = new Chart(ochartArea, {
             },
             {
                 label: '예측값',
-                data: [1000, 1600, 1500, 800, 800, 600],
+                data: [800, 800, 600],
                 backgroundColor: '#60c0ce',
                 borderColor: '#60c0ce',
                 borderWidth: 1,
@@ -132,7 +132,7 @@ var ochart = new Chart(ochartArea, {
             },
             {
                 label: '최저값',
-                data: [800, 1300, 800, 200, 600, 300],
+                data: [200, 600, 300],
                 backgroundColor: '#18b171',
                 borderColor: '#18b171',
                 borderWidth: 1,
@@ -165,11 +165,11 @@ var ochart = new Chart(ochartArea, {
 var gchart = new Chart(gchartArea, {
     type: 'line',
     data: {
-        labels: ['1월', '2월', '3월', '4월', '5월', '6월'],
+        labels: ['전월', '현월', '다음월'],
         datasets: [
             {
                 label: '최대값',
-                data: [1200, 1900, 2200, 1400, 1000, 900],
+                data: [1200, 1400, 1000],
                 backgroundColor: '#e24f31',
                 borderColor: '#e24f31',
                 borderWidth: 1,
@@ -177,7 +177,7 @@ var gchart = new Chart(gchartArea, {
             },
             {
                 label: '예측값',
-                data: [1000, 1600, 1500, 800, 800, 600],
+                data: [1000, 800, 800],
                 backgroundColor: '#60c0ce',
                 borderColor: '#60c0ce',
                 borderWidth: 1,
@@ -185,7 +185,7 @@ var gchart = new Chart(gchartArea, {
             },
             {
                 label: '최저값',
-                data: [800, 1300, 800, 200, 600, 300],
+                data: [800, 200, 600],
                 backgroundColor: '#18b171',
                 borderColor: '#18b171',
                 borderWidth: 1,
