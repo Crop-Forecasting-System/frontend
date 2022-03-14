@@ -45,19 +45,19 @@ header {
   }
   
   .bicon {
-    margin-left: 13%;
+    margin-left: 15%;
   }
   
   .micon {
-    margin-left: 33%;    
+    margin-left: 35%;    
   }
   
   .oicon {
-    margin-left: 53%;    
+    margin-left: 55%;    
   }
   
   .gicon {
-    margin-left: 73%;    
+    margin-left: 75%;    
   }
   
     
@@ -67,22 +67,22 @@ header {
     }
   
     .bicon:hover {
-      background: url('cabbage.png') no-repeat;
+      background: url('./img/cabbage.png') no-repeat;
       background-color: rgba(255, 255, 255, 0.75);    
     }
   
     .micon:hover {
-      background: url('radish.png') no-repeat;
+      background: url('./img/radish.png') no-repeat;
       background-color: rgba(255, 255, 255, 0.75);    
     }
   
     .oicon:hover {
-      background: url('onion.png') no-repeat;
+      background: url('./img/onion.png') no-repeat;
       background-color: rgba(255, 255, 255, 0.75);    
     }
   
     .gicon:hover {
-      background: url('chili.png') no-repeat;
+      background: url('./img/chili.png') no-repeat;
       background-color: rgba(255, 255, 255, 0.75);    
     }
     
@@ -192,7 +192,7 @@ header {
     body {
       height: 100%;
       min-height: 300px;
-      background: url('grass.jpg');
+      background: url('./img/grass.jpg');
       background-size:contain;
     }
     
