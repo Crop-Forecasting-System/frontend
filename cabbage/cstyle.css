@@ -1,0 +1,84 @@
+
+header {  
+    height: 50px;
+    padding: 1rem;
+    color: white;
+    background: #1F3256;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+  
+body{
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+    min-height: 300px;
+    background: url('../img/grass.jpg');
+    background-size:contain;
+}
+
+.icon {
+    position:absolute;
+    color:#1F3256;
+    cursor: pointer;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    line-height: 150px;
+    text-align: center;
+    font-size: 2.75em;
+    font-weight: bold;
+    transition: 0.24s 0.2s;
+    background: url('../img/cabbage.png') no-repeat;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin-top: 3%;
+    margin-left: 5%;
+}
+
+.crop{
+    margin-left: 25%;
+    margin-top: 2%;
+}
+
+.crop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    width: 80vw;
+    margin: 0 auto;
+    margin-left: 1%;
+}
+
+.btn {
+    width: 50px;
+    height: 20px;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #426AB2;
+    background-size: 200% auto;
+    color: white;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.btnb{
+    background-color: gray;
+    color: white;
+}
+
+.btn:hover{
+    background-color: gray;
+}
+  
