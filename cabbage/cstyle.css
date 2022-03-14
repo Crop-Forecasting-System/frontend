@@ -43,11 +43,6 @@ body {
     margin-left: 5%;
 }
 
-.crop{
-    margin-left: 25%;
-    margin-top: 2%;
-}
-
 .crop {
     display: flex;
     justify-content: center;
@@ -79,6 +74,38 @@ body {
 }
 
 .btn:hover{
+    background-color: gray;
+}
+
+.place {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: 7%;
+    margin-top: 10%;
+}
+
+.pbtn {
+    width: 50px;
+    height: 20px;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: goldenrod;
+    background-size: 200% auto;
+    color: white;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.pbtns{
+    background-color: gray;
+    color: white;
+}
+
+.pbtn:hover{
     background-color: gray;
 }
   
