@@ -211,35 +211,17 @@ header {
   
     /* 차트디자인시작 */
   
+
+    .cc{
+      display: flex;
+      justify-content: space-around;
+    }
     .chart{
       background-color: rgba(255, 255, 255);
       margin-top: 250px;
-      margin-bottom: 200px;
-      margin-right: 20px;
+      margin-bottom: 100px;
       border-radius: 20px;
-      position: absolute;
       padding: 1px;
     }
   
-    .bchart{    
-      margin-left: 100px;   
-    }
-  
-    .mchart{    
-      margin-left: 370px;   
-    }
-  
-    .ochart{    
-      margin-left: 640px;   
-    }
-  
-    .gchart{    
-      margin-left: 910px;   
-    }
-  
     /* 차트디자인끝 */
-  
-    .mg{
-      margin-top: 600px;
-      opacity: 0;
-    }
