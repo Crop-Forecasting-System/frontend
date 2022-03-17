@@ -43,6 +43,7 @@ body {
     margin-left: 5%;
 }
 
+/* 작물아이콘 */
 .crop {
     display: flex;
     justify-content: center;
@@ -76,13 +77,12 @@ body {
     background-color: #426AB2;
 }
 
+/* 장소아이콘 */
 .place {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    flex-wrap: wrap;
     margin-left: 7%;
-    margin-top: 10%;
 }
 
 .pbtn {
@@ -107,6 +107,8 @@ body {
 .pbtn:hover{
     background-color: goldenrod;
 }
+
+/* 팝업창시작 */
 
 .openBtn{
     width: 70px;
@@ -169,5 +171,33 @@ body {
 
 .hidden {
     display: none;
+}
+
+/* 팝업창끝 */
+
+.cbody{
+    display: flex;
+}
+
+.crt{
+    display: flex;
+    flex-direction: column;
+    margin-left: 4%;
+    margin-top: 3%;
+
+}
+
+.item{
+    width: 920px;
+    height: 200px;
+    margin: 10px;
+    padding: 20px;
+    text-align: left;
+    text-transform: uppercase;
+    background-color: lightgray;
+    background-size: 200% auto;
+    color: black;
+    border-radius: 20px;
+    font-weight: bold;
 }
   
