@@ -100,9 +100,12 @@ body {
     font-weight: bold;
 }
 
+.pbtnd,
+.pbtnj,
+.pbtng,
+.pbtnb,
 .pbtns{
     background-color: goldenrod;
-    color: white;
 }
 
 .pbtn:hover{
