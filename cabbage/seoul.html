@@ -2,7 +2,6 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
     <link rel="stylesheet" href="cstyle.css">
@@ -44,7 +43,6 @@
                 신선식품지수 전년누계비: <input type='text'/><br>
             </form>
             <a class="closeBtn">✖</a>
-            <script type="text/javascript" src="cscript.js"></script>
         </div>
         </div>
 
@@ -62,9 +60,25 @@
         </div>
 
         <div class = "crt">
-            <a class="item sj">평균</a>
-            <a class="item s">상품</a>
-            <a class="item j">중품</a>
+            <ul class="title">
+                <li class="avg">
+                    <a class="before">전월실제가격</a>
+                    <a class="present">현월예측가격</a>
+                    <a class="cchart">가격예측그래프(1년간)</a>
+                </li>
+            </ul>
+            <ul class="item sj">평균
+                <li class="avg">
+                    <a class="before in">5048원/kg</a>
+                    <a class="present in">6025원/kg</a>
+                    <canvas class="cchart cbg" id="cchart" width="250" height="150"></canvas>
+                    <script type="text/javascript" src="cscript.js"></script>
+                </li>
+            </ul>
+
+
+            <ul class="item s">상품</ul>
+            <ul class="item j">중품</ul>
         </div>
 
     </div>

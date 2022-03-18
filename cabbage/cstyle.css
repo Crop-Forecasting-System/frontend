@@ -78,6 +78,7 @@ body {
 }
 
 /* 장소아이콘 */
+
 .place {
     display: flex;
     flex-direction: column;
@@ -183,21 +184,72 @@ body {
     display: flex;
     flex-direction: column;
     margin-left: 4%;
-    margin-top: 3%;
+
 
 }
 
-.item{
+.title{
     width: 920px;
-    height: 200px;
+    height: 30px;
     margin: 10px;
     padding: 20px;
     text-align: left;
     text-transform: uppercase;
-    background-color: lightgray;
+    background-color: gray;
     background-size: 200% auto;
+    color: black;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.item{
+    width: 920px;
+    height: 120px;
+    margin: 10px;
+    padding: 20px;
+    text-align: left;
+    text-transform: uppercase;
+    background-size: 200% auto;
+    background-color: lightgray;
     color: black;
     border-radius: 20px;
     font-weight: bold;
 }
-  
+
+.cchart{
+    border-radius: 20px;
+    padding: 1px;
+    margin-left: 13%;
+    justify-content: center;
+    text-align: center;
+    width: 200px;
+}
+
+.cbg{
+    background-color: white;
+}
+
+li{
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.avg{
+    display: flex;
+}
+
+.present,
+.before{
+    width: 100px;
+    margin-left: 13%;
+    justify-content: center;
+    text-align: center;
+}
+
+.in{
+    margin-top: 3%;
+    font-size: large;
+    font-weight: bold;
+}
