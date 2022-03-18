@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.1/Chart.min.js"></script> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-annotation/0.5.7/chartjs-plugin-annotation.min.js"></script>
     <link rel="stylesheet" href="cstyle.css">
     <title>Crop Forecasting System</title>
 </head>
@@ -62,16 +63,18 @@
         <div class = "crt">
             <ul class="title">
                 <li class="avg">
+                    <a class="mtitle">품질</a>
                     <a class="before">전월실제가격</a>
                     <a class="present">현월예측가격</a>
                     <a class="cchart">가격예측그래프(1년간)</a>
                 </li>
             </ul>
-            <ul class="item sj">평균
+            <ul class="item sj">
                 <li class="avg">
+                    <a class="mtitle in">평균</a>
                     <a class="before in">5048원/kg</a>
                     <a class="present in">6025원/kg</a>
-                    <canvas class="cchart cbg" id="cchart" width="250" height="150"></canvas>
+                    <canvas class="cchart cbg" id="canvas" width="450" height="150"></canvas>
                     <script type="text/javascript" src="cscript.js"></script>
                 </li>
             </ul>

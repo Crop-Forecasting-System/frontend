@@ -197,14 +197,14 @@ body {
     text-transform: uppercase;
     background-color: gray;
     background-size: 200% auto;
-    color: black;
+    color: white;
     border-radius: 5px;
     font-weight: bold;
 }
 
 .item{
     width: 920px;
-    height: 120px;
+    height: 150px;
     margin: 10px;
     padding: 20px;
     text-align: left;
@@ -217,13 +217,15 @@ body {
 }
 
 .cchart{
-    border-radius: 20px;
-    padding: 1px;
-    margin-left: 13%;
+    border-radius: 10px;
+    padding: 3px;
+    margin-left: 3%;
     justify-content: center;
     text-align: center;
     width: 200px;
 }
+
+
 
 .cbg{
     background-color: white;
@@ -240,16 +242,16 @@ li{
     display: flex;
 }
 
+.mtitle,
 .present,
 .before{
-    width: 100px;
-    margin-left: 13%;
+    width: 150px;
     justify-content: center;
     text-align: center;
 }
 
 .in{
-    margin-top: 3%;
+    margin-top: 7%;
     font-size: large;
     font-weight: bold;
 }
