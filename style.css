@@ -10,6 +10,11 @@ header {
   align-items: center;
 }
 
+.hd{
+  text-decoration: none;
+  color: white;
+}
+
 .sentence{
   font-size: 15px;
   width: 200;

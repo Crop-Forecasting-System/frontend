@@ -9,6 +9,16 @@ header {
     justify-content: space-between;
     align-items: center;
 }
+
+.hd{
+    text-decoration: none;
+    color: white;
+}
+
+.hd{
+    text-decoration: none;
+    color: white;
+  }
   
 body{
     margin: 0;
