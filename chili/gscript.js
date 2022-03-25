@@ -1,20 +1,3 @@
-// 팝업창시작
-
-const open = () => {
-    document.querySelector(".modal").classList.remove("hidden");
-    }
-    
-    const close = () => {
-    document.querySelector(".modal").classList.add("hidden");
-    }
-    
-    document.querySelector(".openBtn").addEventListener("click", open);
-    document.querySelector(".closeBtn").addEventListener("click", close);
-    document.querySelector(".checkBtn").addEventListener("click", close);
-    document.querySelector(".bg").addEventListener("click", close);
-    
-    //팝업창끝
-    
     var chartData = {
         labels: ["9","10","11","12","1","2","3","4","5", "6","7","8"],
         datasets: [{

@@ -7,6 +7,11 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-annotation/0.5.7/chartjs-plugin-annotation.min.js"></script>
     <link rel="stylesheet" href="rstyle.css">
     <title>Crop Forecasting System</title>
+            
+    <script language="javascript">
+        function showPopup() { window.open("./radishpopup.html", "a", "width=350, height=280, left=450, top=200");}
+    </script>
+
 </head>
 <body>
     <header>
@@ -23,36 +28,7 @@
         
 
         <!-- 팝업창띄우기 -->
-        <a title='구체적인 요인값을 입력하면 더 정확한 예측값을 얻을 수 있습니다.' class="openBtn">요인입력</a>
-        <div class="modal hidden">
-        <div class="bg"></div>
-        <div class="modalBox">
-            <form>
-                구체적인 요인값을 입력하면 더 정확한 예측값을 얻을 수 있습니다.<br>
-                 <br>
-                면적 : <input type='text' value='예시입력'/><br>
-                생산량 : <input type='text'/><br>
-                물가지수: <input type='text'/><br>
-                평균기온: <input type='text'/><br>
-                평균풍속: <input type='text'/><br>
-                평균최저기온: <input type='text'/><br>
-                평균최고기온: <input type='text'/><br>
-                평균상대습도: <input type='text'/><br>
-                월합강수량: <input type='text'/><br>                
-                총지수 전년동월비: <input type='text'/><br>
-                총지수 전년누계비: <input type='text'/><br>
-                신선식품지수 전년동월비: <input type='text'/><br>
-                신선식품지수 전년누계비: <input type='text'/><br>
-            </form>
-            <div class="lastBtn">
-                <a class="closeBtn">취소</a>
-                <a class="checkBtn">확인</a>
-            </div>
-        </div>
-        </div>
-
-
-
+        <a class="openBtn" onclick="showPopup()">요인입력</a>
     </div>
 
     <div class = "cbody">
