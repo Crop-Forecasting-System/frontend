@@ -7,11 +7,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-annotation/0.5.7/chartjs-plugin-annotation.min.js"></script>
     <link rel="stylesheet" href="cstyle.css">
     <title>Crop Forecasting System</title>
-
-    <script language="javascript">
-        function showPopup() { window.open("./cabbagepopup.html", "a", "width=480, height=360, left=1000, top=0");}
-    </script>
-
 </head>
 <body>
     <header>
@@ -28,8 +23,6 @@
             <a class="btn btno" onclick="location.href='../onion/seoul.html'">양파</a>
             <a class="btn btng" onclick="location.href='../chili/seoul.html'">건고추</a>
         </div>
-        <!-- 팝업창띄우기 -->
-        <a class="openBtn" onclick="showPopup()">요인입력</a>
     </div>
     <!-- 가로아이콘끝 -->
 
@@ -38,12 +31,18 @@
         <ul class="title">
             <li class="avg">
                 <div class="numname">
-                    <a class="inname">품질</a>
-                    <a class="inname pricename">전월실제가격</a>
-                    <a class="inname pricename">현월예측가격</a>
-                    <a class="inname pricename">익월예측가격</a>
+                    <a class="inname">요인</a>
+                    <a class="inname pricename">6월</a>
+                    <a class="inname pricename">7월</a>
+                    <a class="inname pricename">8월</a>
                 </div>
-                <a class="chartname">가격예측그래프(1년간)</a>
+            </li>
+        </ul>
+        <ul class="title2">
+            <li class="avg">
+                <div class="numname">
+                    <a class="chartname">가격예측그래프(1년간)</a>
+                </div>                
             </li>
         </ul>
     </div>
@@ -60,40 +59,104 @@
         </div>
 
         <div class = "content">
-            <div class="num">
-                <ul class="items">
-                    <li class="item">
-                        <a class="in"> 평균 </a>
-                        <a class="in inin"> 15048원/kg </a>
-                        <a class="in inin"> 16025원/kg </a>
-                        <a class="in inin"> 17025원/kg </a>
-                    </li>
-                </ul>
-                <ul class="items">
-                    <li class="item">
-                        <a class="in"> 상품 </a>
-                        <a class="in inin"> 16048원/kg </a>
-                        <a class="in inin"> 17025원/kg </a>
-                        <a class="in inin"> 18025원/kg </a>
-                    </li>
-                </ul>
-                <ul class="items">
-                    <li class="item">
-                        <a class="in"> 중품 </a>
-                        <a class="in inin"> 14048원/kg </a>
-                        <a class="in inin"> 15025원/kg </a>
-                        <a class="in inin"> 16025원/kg </a>
-                    </li>
-                </ul>
+            <div class = "left">
+                <div class="num">
+                    <div class="coltitle">
+                        <a class="colname name1">면적</a>
+                        <a class="colname">생산량</a>
+                        <a class="colname">물가지수</a>
+                        <a class="colname">평균기온</a>
+                        <a class="colname">월합강수량</a>
+                        <a class="colname">평균최고기온</a>
+                        <a class="colname">평균최저기온</a>
+                        <a class="colname">평균상대습도</a>
+                        <a class="colname">총지수전년누계비</a>
+                    </div>
+            
+                    <div class="june">
+                        <input class="ip" type='text'/><br>
+                        <input class="ip" type='text'/><br>
+                        <input class="ip" type='text'/><br>
+                        <input class="ip" type='text'/><br>
+                        <input class="ip" type='text'/><br>
+                        <input class="ip" type='text'/><br>
+                        <input class="ip" type='text'/><br>
+                        <input class="ip" type='text'/><br>
+                        <input class="ip" type='text'/><br>
+                    </div>
+                    <div class="july">
+                        <input class="ip" type='text'/><br>
+                        <input class="ip" type='text'/><br>
+                        <input class="ip" type='text'/><br>
+                        <input class="ip" type='text'/><br>
+                        <input class="ip" type='text'/><br>
+                        <input class="ip" type='text'/><br>
+                        <input class="ip" type='text'/><br>
+                        <input class="ip" type='text'/><br>
+                        <input class="ip" type='text'/><br>            
+                    </div>
+                    <div class="august">
+                        <input class="ip" type='text'/><br>
+                        <input class="ip" type='text'/><br>
+                        <input class="ip" type='text'/><br>
+                        <input class="ip" type='text'/><br>
+                        <input class="ip" type='text'/><br>
+                        <input class="ip" type='text'/><br>
+                        <input class="ip" type='text'/><br>
+                        <input class="ip" type='text'/><br>
+                        <input class="ip" type='text'/><br>
+                    </div>
+                </div>
+                <div class="lastBtn">
+                    <input class="checkBtn" type="submit" onClick="clickEvent();" value="확인">
+                    <input class="checkBtn2" type="submit" onClick="clickEvent();" value="초기화">
+                    </script>
+                </div>
             </div>
+            
             <div class="chart">
-                <canvas class="cchart" id="canvas" width="590" height="420"></canvas>
+                <canvas class="cchart" id="canvas" width="640" height="420"></canvas>
                 <script type="text/javascript" src="cscript.js"></script>
             </div>
         </div>
-
     </div>
     <!-- 중요내용끝 -->
+
+    <!-- 가격보여주는 아래 부분 -->
+    <div class="under">
+        <ul class="items2">
+            <li class="item">
+                <a class="in2"> 품질 </a>
+                <a class="in2 inin2"> 전월실제가격</a>
+                <a class="in2 inin2"> 현월예측가격</a>
+                <a class="in2 inin2"> 익월예측가격</a>
+            </li>
+        </ul>
+        <ul class="items">
+            <li class="item">
+                <a class="in"> 평균 </a>
+                <a class="in inin"> 15048원/kg </a>
+                <a class="in inin"> 16025원/kg </a>
+                <a class="in inin"> 17025원/kg </a>
+            </li>
+        </ul>
+        <ul class="items">
+            <li class="item">
+                <a class="in"> 상품 </a>
+                <a class="in inin"> 16048원/kg </a>
+                <a class="in inin"> 17025원/kg </a>
+                <a class="in inin"> 18025원/kg </a>
+            </li>
+        </ul>
+        <ul class="items">
+            <li class="item">
+                <a class="in"> 중품 </a>
+                <a class="in inin"> 14048원/kg </a>
+                <a class="in inin"> 15025원/kg </a>
+                <a class="in inin"> 16025원/kg </a>
+            </li>
+        </ul>   
+    </div>
 
 </body>
 </html>

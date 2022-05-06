@@ -1,13 +1,13 @@
 
 header {  
-  height: 50px;
+  height: 70px;
   padding: 1rem;
   color: white;
   background: #1F3256;
-  font-weight: bold;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  font-size: 22px;
 }
 
 .hd{
