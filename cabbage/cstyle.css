@@ -329,7 +329,7 @@ body {
 
 .items2,
 .items{
-    width: 550px;
+    width: 580px;
     height: 60px;
     margin: 10px;
     padding: 20px;
@@ -340,7 +340,6 @@ body {
 .items2{
     background-color: gray;
     color: white;
-    height: 40px;
 }
 
 .in2,
@@ -357,11 +356,11 @@ body {
 }
 
 .inin2{
-    margin-left: 9%;
+    margin-left: 10%;
 }
 
 .inin{
-    margin-left: 10%;
+    margin-left: 11%;
 }
 
 li{
@@ -392,4 +391,6 @@ li{
 .under{
     margin-left: 17%;
     margin-top: 2%;
+    display: flex;
+    margin-bottom: 2%;
 }
