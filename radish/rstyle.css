@@ -1,13 +1,12 @@
-
 header {  
-    height: 50px;
+    height: 70px;
     padding: 1rem;
     color: white;
     background: #1F3256;
-    font-weight: bold;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-size: 22px;
 }
 
 .hd{
@@ -42,9 +41,9 @@ body {
     font-size: 2.75em;
     font-weight: bold;
     transition: 0.24s 0.2s;
-    background: url('../img/radish.png') no-repeat;
+    background: url('../img/cabbage.png') no-repeat;
     background-color: #0F611A;
-    margin-top: 3%;
+    margin-top: 6%;
     margin-left: 5%;
 }
 
@@ -92,7 +91,6 @@ body {
     flex-direction: column;
     justify-content: center;
     margin-left: 7%;
-    margin-top: 2%;
 }
 
 .pbtn {
@@ -176,18 +174,17 @@ body {
 
 .crt{
     display: flex;
-    flex-direction: column;
     margin-left: 17%;
 }
 
 .content{
     display: flex;
-    margin-top: 1%;
 }
 
-.title{
-    width: 1250px;
-    height: 30px;
+.title,
+.title2{
+    width: 525px;
+    height: 20px;
     margin: 10px;
     padding: 20px;
     text-align: left;
@@ -199,27 +196,26 @@ body {
     font-weight: bold;
 }
 
+
+.title2{
+    background-color: gray;
+    width: 630px;
+}
+
 .chart,
 .num{
     display: flex;
     border-radius: 10px;
     margin-bottom: 1%;
+    margin-left: 9%;
+}
+/* 팝업에서 들어온 아이들 */
+.pli{
+    display: flex;
 }
 
-.num{
-    margin-left: 4%;
-    flex-direction: column;
-}
-
-.chart{
-    width: 780px;
-    height: 450px;
-    background-color: lightgray;
-    margin-left: 1%;
-}
-
-.numname{
-    width: 550px;
+.name{
+    width: 350px;
 }
 
 .inname{
@@ -229,33 +225,142 @@ body {
     margin-left: 15%;
 }
 
+.innname{
+    margin-left: 30%;
+}
+
+.content{
+    display: flex;
+}
+
+.coltitle,
+.june,
+.july,
+.august{
+    width: 100px;
+    height: 400px;
+    margin: 5px;
+    padding: 15px;
+    background-color: lightgray;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column; 
+}
+
+.coltitle{
+    width: 170px;
+    background-color: goldenrod;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.colname{
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 25px;
+    font-size: small;
+}
+
+.name1{
+    margin-top: 1px;
+}
+
+.ip{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.checkBtn2,
+.checkBtn{
+    margin: 5px;
+    padding: 10px;
+    width: 55px;
+    text-align: center;
+    font-size: small;
+    background-color: gray;
+    color: white;
+    border-radius: 15px;
+    font-weight: bold;
+    float: right;
+    border: none;
+    outline: none;
+}
+
+.checkBtn2{
+    width: 60px;
+}
+
+.left{
+    flex-direction: column;
+}
+
+/* 팝업에서 온 아이들 끝 */
+
+.chart{
+    width: 690px;
+    height: 450px;
+    background-color: lightgray;
+    margin-left: 1%;
+}
+
+.numname{
+    width: 650px;
+}
+
+.inname{
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+    margin-left: 32%;
+}
+
 .pricename{
-    margin-left: 11%;
+    margin-left: 20%;
 }
 
 .chartname{
-    width: 700px;
     justify-content: center;
     text-align: center;
     font-weight: bold;
 }
 
+.items2,
 .items{
-    width: 500px;
-    height: 90px;
+    width: 530px;
+    height: 40px;
     margin: 10px;
     padding: 20px;
     background-color: lightgray;
     border-radius: 20px;
 }
 
+.items2{
+    background-color: #426AB2;
+    color: white;
+    height: 20px;
+}
+
+.in2,
 .in{
     justify-content: center;
     text-align: center;
     font-weight: bold;
-    margin-left: 15%;
-    margin-top: 5%;
-    line-height: 90px;
+    margin-left: 1%;
+    line-height: 40px;
+}
+
+.in2{
+    line-height: 20px;
+    margin-left: 8%;
+}
+
+.inin2{
+    margin-left: 21%;
+}
+
+.inin{
+    margin-left: 8%;
 }
 
 li{
@@ -281,4 +386,8 @@ li{
     margin-left: 2%;
     margin-top: 2%;
     background-color: white;
+}
+
+.price1{
+    margin-left: 7%;
 }
