@@ -43,7 +43,7 @@ body {
     transition: 0.24s 0.2s;
     background: url('../img/cabbage.png') no-repeat;
     background-color: #0F611A;
-    margin-top: 3%;
+    margin-top: 6%;
     margin-left: 5%;
 }
 
@@ -91,7 +91,6 @@ body {
     flex-direction: column;
     justify-content: center;
     margin-left: 7%;
-    margin-top: 2%;
 }
 
 .pbtn {
@@ -180,18 +179,17 @@ body {
 
 .content{
     display: flex;
-    margin-top: 1%;
 }
 
 .title,
 .title2{
     width: 525px;
-    height: 30px;
+    height: 20px;
     margin: 10px;
     padding: 20px;
     text-align: left;
     text-transform: uppercase;
-    background-color: #426AB2;
+    background-color: gray;
     background-size: 200% auto;
     color: white;
     border-radius: 5px;
@@ -314,11 +312,11 @@ body {
     justify-content: center;
     text-align: center;
     font-weight: bold;
-    margin-left: 6%;
+    margin-left: 32%;
 }
 
 .pricename{
-    margin-left: 21%;
+    margin-left: 20%;
 }
 
 .chartname{
@@ -338,7 +336,7 @@ body {
 }
 
 .items2{
-    background-color: gray;
+    background-color: #426AB2;
     color: white;
     height: 20px;
 }
@@ -354,11 +352,11 @@ body {
 
 .in2{
     line-height: 20px;
-    margin-left: 32%;
+    margin-left: 8%;
 }
 
 .inin2{
-    margin-left: 19%;
+    margin-left: 21%;
 }
 
 .inin{
@@ -390,9 +388,6 @@ li{
     background-color: white;
 }
 
-.under{
-    margin-left: 17%;
-    margin-top: 2%;
-    display: flex;
-    margin-bottom: 2%;
+.price1{
+    margin-left: 7%;
 }
