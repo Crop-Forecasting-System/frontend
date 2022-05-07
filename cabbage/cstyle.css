@@ -329,8 +329,8 @@ body {
 
 .items2,
 .items{
-    width: 580px;
-    height: 60px;
+    width: 530px;
+    height: 40px;
     margin: 10px;
     padding: 20px;
     background-color: lightgray;
@@ -340,6 +340,7 @@ body {
 .items2{
     background-color: gray;
     color: white;
+    height: 20px;
 }
 
 .in2,
@@ -347,20 +348,21 @@ body {
     justify-content: center;
     text-align: center;
     font-weight: bold;
-    margin-left: 5%;
-    line-height: 60px;
-}
-
-.in2{
+    margin-left: 1%;
     line-height: 40px;
 }
 
+.in2{
+    line-height: 20px;
+    margin-left: 32%;
+}
+
 .inin2{
-    margin-left: 10%;
+    margin-left: 19%;
 }
 
 .inin{
-    margin-left: 11%;
+    margin-left: 8%;
 }
 
 li{
