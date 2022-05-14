@@ -229,9 +229,6 @@ body {
     margin-left: 30%;
 }
 
-.content{
-    display: flex;
-}
 
 .coltitle,
 .june,
@@ -298,8 +295,8 @@ body {
 /* 팝업에서 온 아이들 끝 */
 
 .chart{
-    width: 690px;
-    height: 450px;
+    width: 685px;
+    height: 630px;
     background-color: lightgray;
     margin-left: 1%;
 }
@@ -328,8 +325,10 @@ body {
 .items2,
 .items{
     width: 530px;
-    height: 40px;
-    margin: 10px;
+    height: 60px;
+    margin-top: 0px;
+    margin-bottom: 4px;
+    margin-left: 2%;
     padding: 20px;
     background-color: lightgray;
     border-radius: 20px;
@@ -339,6 +338,7 @@ body {
     background-color: #426AB2;
     color: white;
     height: 20px;
+    margin-top: 10px;
 }
 
 .in2,
@@ -347,7 +347,7 @@ body {
     text-align: center;
     font-weight: bold;
     margin-left: 1%;
-    line-height: 40px;
+    line-height: 15px;
 }
 
 .in2{
