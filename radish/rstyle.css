@@ -42,8 +42,8 @@ body {
     font-weight: bold;
     transition: 0.24s 0.2s;
     background: url('../img/cabbage.png') no-repeat;
-    background-color: #0F611A;
-    margin-top: 6%;
+    background-color: #228c28;
+    margin-top: 4%;
     margin-left: 5%;
 }
 
@@ -112,11 +112,11 @@ body {
 .pbtng,
 .pbtnb,
 .pbtns{
-    background-color: goldenrod;
+    background-color: #ffdc3c;
 }
 
 .pbtn:hover{
-    background-color: goldenrod;
+    background-color: #ffdc3c;
 }
 
 /* 팝업창시작 */
@@ -229,16 +229,13 @@ body {
     margin-left: 30%;
 }
 
-.content{
-    display: flex;
-}
 
 .coltitle,
 .june,
 .july,
 .august{
-    width: 100px;
-    height: 400px;
+    width: 90px;
+    height: 405px;
     margin: 5px;
     padding: 15px;
     background-color: lightgray;
@@ -248,8 +245,8 @@ body {
 }
 
 .coltitle{
-    width: 170px;
-    background-color: goldenrod;
+    width: 200px;
+    background-color: #ffd228;
     color: white;
     border-radius: 5px;
     font-weight: bold;
@@ -298,8 +295,8 @@ body {
 /* 팝업에서 온 아이들 끝 */
 
 .chart{
-    width: 690px;
-    height: 450px;
+    width: 685px;
+    height: 680px;
     background-color: lightgray;
     margin-left: 1%;
 }
@@ -328,8 +325,10 @@ body {
 .items2,
 .items{
     width: 530px;
-    height: 40px;
-    margin: 10px;
+    height: 60px;
+    margin-top: 0px;
+    margin-bottom: 4px;
+    margin-left: 2%;
     padding: 20px;
     background-color: lightgray;
     border-radius: 20px;
@@ -339,6 +338,7 @@ body {
     background-color: #426AB2;
     color: white;
     height: 20px;
+    margin-top: 10px;
 }
 
 .in2,
@@ -347,16 +347,20 @@ body {
     text-align: center;
     font-weight: bold;
     margin-left: 1%;
-    line-height: 40px;
+    line-height: 15px;
 }
 
 .in2{
     line-height: 20px;
-    margin-left: 8%;
+    margin-left: 11%;
 }
 
 .inin2{
-    margin-left: 21%;
+    margin-left: 23%;
+}
+
+.inin3{
+    margin-left: 18%;
 }
 
 .inin{
