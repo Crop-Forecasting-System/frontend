@@ -43,7 +43,7 @@ body {
     transition: 0.24s 0.2s;
     background: url('../img/cabbage.png') no-repeat;
     background-color: #228c28;
-    margin-top: 4%;
+    margin-top: 6%;
     margin-left: 5%;
 }
 
@@ -112,21 +112,22 @@ body {
 .pbtng,
 .pbtnb,
 .pbtns{
-    background-color: #ffdc3c;
+    background-color: #ffd228;
 }
 
 .pbtn:hover{
-    background-color: #ffdc3c;
+    background-color: #ffd228;
 }
 
 /* 팝업창시작 */
 
 .openBtn{
-    width: 80px;
+    width: 150px;
     height: 20px;
     margin: 10px;
     padding: 20px;
     text-align: center;
+    text-decoration: none;
     text-transform: uppercase;
     background-color: #0F611A;
     background-size: 200% auto;
@@ -134,7 +135,7 @@ body {
     border-radius: 20px;
     font-weight: bold;
     float: right;
-    margin-right: 2%;
+    margin-right: 3%;
 }
 
 .openBtn:hover{
