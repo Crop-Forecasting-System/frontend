@@ -112,11 +112,11 @@ body {
 .pbtng,
 .pbtnb,
 .pbtns{
-    background-color: #ffd228;
+    background-color: #ffd400;
 }
 
 .pbtn:hover{
-    background-color: #ffd228;
+    background-color: #ffd400;
 }
 
 /* 팝업창시작 */
@@ -247,7 +247,7 @@ body {
 
 .coltitle{
     width: 200px;
-    background-color: #ffd228;
+    background-color: #ffd400;
     color: white;
     border-radius: 5px;
     font-weight: bold;
